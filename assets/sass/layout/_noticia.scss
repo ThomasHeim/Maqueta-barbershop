@@ -1,0 +1,88 @@
+.articulo__main{
+    padding: 50px;
+
+    .articulo__fecha{
+        margin-bottom: 60px;
+        color: $eerie-black;
+        opacity: 70%;
+    }
+
+    .articulo__cuerpo{
+        line-height: 200%;
+        margin-bottom: 5rem;
+        br{
+            margin-bottom: 3rem;
+        }
+    }
+
+    .articulo__botonera{
+        @include centrar;
+    }
+}
+
+.articulo__autor{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &-retrato{
+        text-align: center;
+    }
+
+    &-info{
+        text-align: center;
+    }
+
+    &-retrato__imagen{
+        border-radius: 100%;
+        width: 130px;
+        height: auto;
+    }
+
+    &-link{
+        display: block;
+    }
+}
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .articulo__main {
+        padding: 100px;
+
+        .articulo__botonera{
+            justify-content: flex-start;
+        }
+    }
+
+    .articulo__autor-retrato__imagen{
+        border-radius: 100%;
+        width: 180px;
+        height: auto;
+    }
+    .articulo__autor-info{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .articulo__autor-descripcion__texto{
+        padding-top: 70px;
+    }
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

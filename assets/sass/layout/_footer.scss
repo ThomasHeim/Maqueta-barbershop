@@ -1,0 +1,20 @@
+.footer__paginacion{
+    background-color: $platino;
+    height: 134px;
+    @include centrar;
+}
+
+.footer__bajada{
+    @include centrar;
+    background-color: $eerie-black;
+    height: 200px;
+}
+
+.footer__bajada-logo{
+    width: 122px;
+    height: auto;
+}
+
+.pagination{
+    border-radius: 50px;
+}

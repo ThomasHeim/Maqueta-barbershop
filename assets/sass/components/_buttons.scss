@@ -1,0 +1,24 @@
+.artículo__botonera-boton {
+    border-radius: 20px !important;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    &:hover{
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+        color: $white;
+    }
+
+    &:focus{
+        background-color: $nickel !important;
+        border: 1px solid $light-gray;
+        color: $white !important;
+    }
+}
+
+.btn-pg{
+    border-radius: 50px;
+    background-color: #fff;
+    color: $eerie-black;
+    border-color: $light-gray;
+}
